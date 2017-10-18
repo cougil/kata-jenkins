@@ -1,9 +1,9 @@
-# Kata Jenkins
+# Jenkins Kata
 
-## Requirements
+#### Requirements
 - Install [Docker](https://docs.docker.com/engine/installation/#supported-platforms).
 
-## Run Jenkins
+#### Run Jenkins
 ```
 $ docker run \
 	-p 8080:8080 \
@@ -12,13 +12,13 @@ $ docker run \
 	jenkins/jenkins:lts
 ```
 
-## Install Jenkins Plugins
+#### Install Jenkins Plugins
 - Blue Ocean
 - Pipeline: AWS Steps
 - Slack Notification Plugin
 
-## Slack channel for notifications
+#### Slack channel for notifications
 - **#kata_jenkins**
 
-## AWS S3 bucket for uploads
+#### AWS S3 bucket for uploads
 - **kata_jenkins/my-team-name**
