@@ -6,7 +6,8 @@ node {
 
     try {
         stage('Preparation') {
-            git(url: REPOSITORY_URL, branch: "lau-solution")
+            deleteDir()
+            checkout scm
             env.PATH = "${env.PATH}:${tool 'Maven 3.5.0'}/bin"
         }
 
