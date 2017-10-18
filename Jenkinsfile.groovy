@@ -1,6 +1,5 @@
 node {
 
-    String REPOSITORY_URL = "https://github.com/Marcut-Laurentiu/kata-jenkins.git"
     String SLACK_URL = "https://cop-mango-tech.slack.com/services/hooks/jenkins-ci/"
     String SLACK_CHANNEL = "#kata_jenkins"
 
