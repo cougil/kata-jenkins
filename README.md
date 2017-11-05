@@ -43,7 +43,7 @@ $ docker run \
    Hint: you need the Slack URL and token for this step.
 7. Send Slack notification in case of error. You can add the exception to the message body.
 8. Pipeline as code. Move the pipeline code in a Jenkinsfile and push it to the same repository.
-   Pool the repository to detect any commit changes and start the build withouth manual steps.
+   Pool the repository to detect any commit changes and start the build withouth manual steps.<br />
    Hint: you need to fork this repository or mount the $HOME folder as volume to the Jenkins container with '-v' option.
    
 ## Utils
