@@ -10,7 +10,7 @@ $ # Run inside docker container
 $ docker run --rm -d \
 	-p 8080:8080 \
 	-v jenkins_home:/var/jenkins_home \
-	--name my-jenkins
+	--name my-jenkins \
 	jenkins/jenkins:lts
 	
 $ # Get the admin password
