@@ -39,8 +39,9 @@ $ docker kill my-jenkins
 2. Download the source code from the forked repository (master branch).
 3. Build the project and launch the unit tests. You can use the following command:
     ```
-    $ mvn clean package
+    $ mvn clean package -Drevision=${VERSION}
     ```
+   Create a version using the current job build number. <br />
    Hint: you need to install **Maven 3.5.0** or newer.
 4. Publish on Jenkins your test results using the **junit** step. <br />
    Get the build result (JAR) from the **/target** directory and save it in Jenkins for later retrieval. 
